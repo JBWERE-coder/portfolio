@@ -6,24 +6,23 @@ const Navbar: React.FC = () => {
     <header className="bg-blue-500 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <span className="text-white text-2xl font-bold cursor-pointer">Your Name</span>
+          <span className="text-gold text-2xl font-bold cursor-pointer">Jacob Were</span>
         </Link>
-        <nav>
+        <nav className="flex space-x-4">
           <Link href="/about">
-            <span className="text-white mr-4 hover:text-gray-300 cursor-pointer">About</span>
+            <span className="text-black hover:text-gold cursor-pointer">About</span>
           </Link>
           <Link href="/portfolio">
-            <span className="text-white mr-4 hover:text-gray-300 cursor-pointer">Portfolio</span>
+            <span className="text-black hover:text-gold cursor-pointer">Portfolio</span>
           </Link>
           <Link href="/contact">
-            <span className="text-white hover:text-gray-300 cursor-pointer">Contact</span>
+            <span className="text-black hover:text-gold cursor-pointer">Contact</span>
           </Link>
         </nav>
       </div>
     </header>
   );
   
-
 };
 
 export default Navbar;
