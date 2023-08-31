@@ -1,18 +1,18 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-gray-100 text-gray-800">
+    <div className="bg-black text-gold">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-blue-500 py-16 text-white">
+      <section className="bg-gold py-16 text-black">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
           <p className="text-xl">I'm a Full-Stack Software Developer</p>
-          <button className="bg-gold text-blue-500 hover:bg-yellow-400 hover:text-blue-800 px-6 py-2 mt-8 rounded-full font-semibold transition duration-300 ease-in-out">
+          <button className="bg-black text-gold hover:bg-yellow-400 hover:text-blue-800 px-6 py-2 mt-8 rounded-full font-semibold transition duration-300 ease-in-out">
             View My Work
           </button>
         </div>
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section className="bg-gray-200 py-16">
+      <section className="bg-black py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold">Portfolio</h2>
           {/* Your portfolio items go here */}
