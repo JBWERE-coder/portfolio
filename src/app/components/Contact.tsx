@@ -1,5 +1,5 @@
 import React from 'react';
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
     <section className="py-8">
       <div className="container mx-auto">

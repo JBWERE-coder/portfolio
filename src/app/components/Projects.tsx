@@ -1,6 +1,6 @@
 import React from 'react';
 
-const projects: React.FC = () => {
+const Projects = () => {
   return (
     <section className="py-8">
       <div className="container mx-auto">
@@ -11,4 +11,4 @@ const projects: React.FC = () => {
   );
 };
 
-export default projects;
+export default Projects;

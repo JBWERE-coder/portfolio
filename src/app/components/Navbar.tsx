@@ -31,7 +31,7 @@ import Link from 'next/link';
 //   );
 // };
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <header className="bg-blue-500">
       <div className="bg-blue-500">

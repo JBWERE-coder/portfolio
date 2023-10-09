@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About: React.FC = () => {
+const About  = () => {
   return (
     <section className="container mx-auto py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -11,7 +11,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div className="text-center">
-          <img src="C:\Users\HP\Downloads\WhatsApp Image 2023-09-13 at 22.30.01.jpeg" alt="Your Name" />
+          <img src="C:\Users\HP\Downloads\WhatsApp Image 2023-09-13 at 22.30.01.jpeg" alt="jb" />
           </div>
         </div>
       </section>
