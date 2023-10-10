@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 
 export const Home = () => {
   return (
-    <div className="bg-black text-gold">
+    <div className=" bg-black h-screen">
       <Navbar />
       <About />
       <Contact />
