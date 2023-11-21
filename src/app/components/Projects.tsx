@@ -9,7 +9,7 @@ const Projects = () => {
           {/* First Project Card */}
           <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4">
             <a href="https://app-bird-lab.onrender.com/" target="_blank" rel="noopener noreferrer">
-              <div className="bg-gray-800 rounded-lg p-4 hover:bg-gray-700 transition duration-300">
+              <div className="bg-gray-800 rounded-lg p-4 hover:bg-gray-700 transition duration-300 ">
                 <img
                   src="birdsy.png"
                   alt="Project Image"

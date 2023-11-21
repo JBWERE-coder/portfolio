@@ -12,7 +12,7 @@ const About  = () => {
             <h2 className="text-3xl font-bold">About Me</h2>
             <p className="text-white mt-4">
               I am a passionate software engineer dedicated to creating interactive web applications and solving everyday problems. With a strong foundation in web development, I thrive on tackling new challenges and delivering innovative solutions.
-              My role, in day-to-day tasks might include:Designing and maintaining software systems,Evaluating and testing new software programs, Optimizing software for speed and scalability, Writing and testing code, Consulting with clients, engineers, security specialists, and other stakeholders, Presenting new features to stakeholders and internal customers
+              My role, in day-to-day tasks include:Designing and maintaining software systems,Evaluating and testing new software programs, Optimizing software for speed and scalability, Writing and testing code, Consulting with clients, engineers, security specialists, and other stakeholders, Presenting new features to stakeholders and internal customers
             </p>
           </div>
           

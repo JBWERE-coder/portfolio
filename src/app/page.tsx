@@ -10,8 +10,8 @@ export const Home = () => {
     <div className=" bg-black h-screen">
       <Navbar />
       <About />
-      <Contact />
       <Projects />
+      <Contact />
       <Footer /> 
     </div>
   );
