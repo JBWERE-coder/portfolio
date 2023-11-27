@@ -5,9 +5,10 @@ import About from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 
+
 export const Home = () => {
   return (
-    <div className=" bg-black h-screen">
+    <div className=" bg-black h-screen p-2">
       <Navbar />
       <About />
       <Projects />

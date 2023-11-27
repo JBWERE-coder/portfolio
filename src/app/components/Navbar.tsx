@@ -3,22 +3,18 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className="bg-gray-200 text-black py-5 px-4" >
-      <div className="flex">
-        <Link className="mr-auto text-4xl"   href="/">
-          <span>Jacob Were</span>
-
-        </Link>
-        <nav className="flex gap-x-4 text-2xl">
+    <header className="text-lime-600 flex justify-between items-center h-24  max-auto px-10" >
+      <div className="flex ml-auto">
+        <nav className="flex gap-x-2 text-xl font-extrabold ">
           <Link href="/about">
-            <span>About</span>
-          </Link>
+            </Link>
+            <span>ABOUT</span>
           <Link href="/projects">
-            <span>Projects</span>
           </Link>
+            <span>PROJECTS</span>
           <Link href="/contact">
-            <span>Contact</span>
           </Link>
+            <span>CONTACTS</span>
         </nav>
       </div>
     </header>
